@@ -1,0 +1,188 @@
+{
+  "conversationId": "19cd4dfe-7f14-412b-bf9f-2db022f2661c",
+  "title": "Hey, I would like to create a mobile app that is l...",
+  "requesterUsername": "gd0t",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "message": {
+        "text": "Hey, I would like to create a mobile app that is like sound cloud or spotify, but is created by myself, I want to have access to music without ads and listen freerly, is it possible to make it right now here, also I would like you to teach me how to do one, is that possible? I have not done before such things, I have created only a couple of websites"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5.1-Codex",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "f6f09710-8ed5-427a-bc62-1e59d85b2f99",
+      "role": "user",
+      "timestamp": "2026-01-06T12:33:03.904200700Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5.1-Codex",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "2eb41366-633d-4dc4-97f8-58196f2c24da",
+      "role": "copilot",
+      "timestamp": "2026-01-06T12:33:04.177091400Z"
+    },
+    {
+      "message": {
+        "text": "Hey, I would like to create a mobile app that is like sound cloud or spotify, but is created by myself, I want to have access to music without ads and listen freerly, is it possible to make it right now here, also I would like you to teach me how to do one, is that possible? I have not done before such things, I have created only a couple of websites"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5.1-Codex-Max",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "816cb8fd-793a-403f-a006-fa692c3609b7",
+      "role": "user",
+      "timestamp": "2026-01-06T12:33:15.792425Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5.1-Codex-Max",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "ebdf9405-ad0a-469f-9dad-8e2533b6e15f",
+      "role": "copilot",
+      "timestamp": "2026-01-06T12:33:15.847786300Z"
+    },
+    {
+      "message": {
+        "text": "Hey, I would like to create a mobile app that is like sound cloud or spotify, but is created by myself, I want to have access to music without ads and listen freerly, is it possible to make it right now here, also I would like you to teach me how to do one, is that possible? I have not done before such things, I have created only a couple of websites"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "4b57f2e2-f63a-4513-a0c8-f9a14d4af443",
+      "role": "user",
+      "timestamp": "2026-01-06T12:34:47.316211300Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "0b2595ad-5eeb-4562-ad0c-cc4749d092b8",
+      "role": "copilot",
+      "timestamp": "2026-01-06T12:34:47.368044100Z"
+    },
+    {
+      "message": {
+        "text": "Hey, I would like to create a mobile app that is like sound cloud or spotify, but is created by myself, I want to have access to music without ads and listen freerly, is it possible to make it right now here, also I would like you to teach me how to do one, is that possible? I have not done before such things, I have created only a couple of websites"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "68fb2c6a-e015-4fdd-9fcc-e6b120b093d5",
+      "role": "user",
+      "timestamp": "2026-01-06T12:38:00.340431200Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [],
+        "editAgentRounds": [
+          {
+            "roundId": 1,
+            "reply": "I\u0027ll quickly scan your Java project to see if it\u0027s safe to add a small, local static web server for a simple PWA music player demo that you can run right now; then I\u0027ll scaffold the PWA (offline, no ads, plays your own files) and wire up a tiny HTTP server so you can try it on your phone.",
+            "toolCalls": [
+              {
+                "id": "call_kUbuo2qz232iPLcGpfxCAwqa",
+                "name": "list_dir",
+                "progressMessage": "Read directory [TicTacToe](file:///c%3A/Tic-Tac-Toe/TicTacToe/)",
+                "status": "completed",
+                "result": []
+              }
+            ]
+          }
+        ],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "billingMultiplier": 0.0
+      },
+      "turnId": "4726edc9-1970-4e4d-ae0f-57fb2e135c53",
+      "role": "copilot",
+      "timestamp": "2026-01-06T12:38:00.403569200Z"
+    }
+  ],
+  "creationDate": "2026-01-06T12:33:03.836913900Z",
+  "lastMessageDate": "2026-01-06T12:38:39.422380700Z"
+}

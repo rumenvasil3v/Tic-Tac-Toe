@@ -1,0 +1,139 @@
+{
+  "conversationId": "4236dae5-a049-4496-803a-a0368b1e434a",
+  "title": "Hey, I would like to create a mobile app that is l...",
+  "requesterUsername": "gd0t",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "message": {
+        "text": "Hey, I would like to create a mobile app that is like sound cloud or spotify, but is created by myself, I want to have access to music without ads and listen freerly, is it possible to make it right now here, also I would like you to teach me how to do one, is that possible? I have not done before such things, I have created only a couple of websites"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5.1-Codex",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "40cb6774-1b27-4ad2-bb34-29156069653d",
+      "role": "user",
+      "timestamp": "2026-01-06T12:29:51.474573800Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5.1-Codex",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "80b38b6f-c81a-420d-a9b1-ba4b8ad01ca7",
+      "role": "copilot",
+      "timestamp": "2026-01-06T12:29:51.891180500Z"
+    },
+    {
+      "message": {
+        "text": "Hey, I would like to create a mobile app that is like sound cloud or spotify, but is created by myself, I want to have access to music without ads and listen freerly, is it possible to make it right now here, also I would like you to teach me how to do one, is that possible? I have not done before such things, I have created only a couple of websites"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5.1-Codex",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "0eb27b95-548b-4cdd-89f7-a68ef0ff943c",
+      "role": "user",
+      "timestamp": "2026-01-06T12:31:01.585570500Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5.1-Codex",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "8bbc0bf8-f60c-4ba5-8f04-bcb9de17cf8b",
+      "role": "copilot",
+      "timestamp": "2026-01-06T12:31:01.639871200Z"
+    },
+    {
+      "message": {
+        "text": "I have emabled the model"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5.1-Codex",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "708b0557-22e2-486c-b90a-871f2404ce13",
+      "role": "user",
+      "timestamp": "2026-01-06T12:31:15.913122800Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5.1-Codex",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "7e78c0e2-1fec-4ceb-81d5-9b251e6f614f",
+      "role": "copilot",
+      "timestamp": "2026-01-06T12:31:15.950015400Z"
+    }
+  ],
+  "creationDate": "2026-01-06T12:29:51.408262500Z",
+  "lastMessageDate": "2026-01-06T12:31:16.107671200Z"
+}

@@ -1,0 +1,44 @@
+package tictac;
+
+import java.util.Scanner;
+
+import javax.swing.*;
+
+public class Entry {
+	
+	public static void main(String[] args) {
+//		String message = GreetingMessage.introductoryMessage();
+//		System.out.println(message);
+//		
+//		Scanner scanner = new Scanner(System.in);
+//		
+//		System.out.print("Player 1 choose symbol: ");
+//		String firstPlayerChoice = scanner.nextLine();
+//		Player firstPlayer = new Player(firstPlayerChoice, 1);
+//		System.out.println(firstPlayer);
+//		
+//		
+//		System.out.print("Player 2 choose symbol: ");
+//		String secondPlayerChoice = scanner.nextLine();
+//		Player secondPlayer = new Player(secondPlayerChoice, 2);
+//		System.out.println(secondPlayer);
+		
+		JFrame frame = new JFrame();
+		JTextField textField = new JTextField();
+		
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		frame.setResizable(false);
+		frame.setTitle("My Tic Tac Toe");
+		
+		GamePanel panel = new GamePanel();
+		frame.add(panel);
+		frame.pack();
+		
+		// The window will be displayed at the center of the screen
+		frame.setLocationRelativeTo(null);
+		frame.setVisible(true);
+		
+		panel.startGameThread();
+//		Windowd.drawWindow();
+	}
+}

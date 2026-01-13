@@ -1,0 +1,254 @@
+package tictac;
+
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.swing.JPanel;
+
+public class Player extends JPanel {
+	private GamePanel gp;
+	KeyHandler keyH;
+	
+	private Map<Integer, Boolean> winX;
+	private Map<Integer, Boolean> winO;
+	private Map<Integer, Integer> drawX;
+	private Map<Integer, Integer> drawO;
+
+	public String symbol;
+	public boolean isItWinner;
+	public int number;
+
+	public Player(GamePanel gp, KeyHandler keyH) {
+		this.gp = gp;
+		this.keyH = keyH;
+		this.drawX = new HashMap<Integer, Integer>();
+		this.drawO = new HashMap<Integer, Integer>();
+		this.winX = new HashMap<Integer, Boolean>();
+		this.winO = new HashMap<Integer, Boolean>();
+	}
+	
+	public void update() {
+		if (keyH.topLeft == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(266)) {
+					
+				} else {
+					this.drawX.put(266, 270);
+					this.winX.put(1, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(266)) {
+					
+				} else {					
+					this.drawO.put(266, 270);
+					this.winO.put(1, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.topMiddle == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(300)) {
+					
+				} else {					
+					this.drawX.put(300, 270);
+					this.winX.put(2, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(300)) {
+					
+				} else {					
+					this.drawO.put(300, 270);
+					this.winO.put(2, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.topRight == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(345)) {
+					
+				} else {					
+					this.drawX.put(345, 270);
+					this.winX.put(3, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(345)) {
+					
+				} else {					
+					this.drawO.put(345, 270);
+					this.winO.put(3, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.middleLeft == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(267)) {
+					
+				} else {					
+					this.drawX.put(267, 320);
+					this.winX.put(4, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(267)) {
+					
+				} else {					
+					this.drawO.put(267, 320);
+					this.winO.put(4, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.middleMiddle == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(301)) {
+					
+				} else {					
+					this.drawX.put(301, 320);
+					this.winX.put(5, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(301)) {
+					
+				} else {					
+					this.drawO.put(301, 320);
+					this.winO.put(5, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.middleRight == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(346)) {
+					
+				} else {					
+					this.drawX.put(346, 320);
+					this.winX.put(6, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(346)) {
+					
+				} else {					
+					this.drawO.put(346, 320);
+					this.winO.put(6, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.bottomLeft == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(268)) {
+					
+				} else {					
+					this.drawX.put(268, 380);
+					this.winX.put(7, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(268)) {
+					
+				} else {
+					this.drawO.put(268, 380);
+					this.winO.put(7, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.bottomMiddle == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(302)) {
+					
+				} else {					
+					this.drawX.put(302, 380);
+					this.winX.put(8, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(302)) {
+					
+				} else {
+					this.drawO.put(302, 380);
+					this.winO.put(8, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+
+		if (keyH.bottomRight == true) {
+			if (gp.currentPlayer == 1) {
+				if (this.drawO.containsKey(347)) {
+					
+				} else {					
+					this.drawX.put(347, 380);
+					this.winX.put(9, true);
+					gp.currentPlayer = 2;
+				}
+				
+			} else if (gp.currentPlayer == 2) {
+				if (this.drawX.containsKey(347)) {
+					
+				} else {					
+					this.drawO.put(347, 380);
+					this.winO.put(9, true);
+					gp.currentPlayer = 1;
+				}
+				
+			}
+		}
+	}
+
+	public void draw(Graphics2D g2) {
+		g2.setColor(Color.white);
+		
+		for (int x: this.drawX.keySet()) {
+			g2.drawString("X", x, this.drawX.get(x));
+		}
+		
+		for (int x: this.drawO.keySet()) {
+			g2.drawString("O", x, this.drawO.get(x));
+		}
+		
+		if ((this.winX.containsKey(1) && this.winX.containsKey(2) && this.winX.containsKey(3)) ||
+			(this.winX.containsKey(4) && this.winX.containsKey(5) && this.winX.containsKey(6)) ||
+			(this.winX.containsKey(7) && this.winX.containsKey(8) && this.winX.containsKey(9)) ||
+			(this.winX.containsKey(1) && this.winX.containsKey(4) && this.winX.containsKey(7)) ||
+			(this.winX.containsKey(2) && this.winX.containsKey(5) && this.winX.containsKey(8)) ||
+			(this.winX.containsKey(3) && this.winX.containsKey(6) && this.winX.containsKey(9)) ||
+			(this.winX.containsKey(1) && this.winX.containsKey(5) && this.winX.containsKey(9)) ||
+			(this.winX.containsKey(3) && this.winX.containsKey(5) && this.winX.containsKey(7))) {
+			
+		}
+	}
+}

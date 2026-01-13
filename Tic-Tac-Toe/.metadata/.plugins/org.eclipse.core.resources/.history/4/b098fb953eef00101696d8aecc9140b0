@@ -1,0 +1,172 @@
+package tictac;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+public class KeyHandler implements KeyListener {
+	
+	public boolean isGameRunning;
+	public boolean firstPlayerTurn = true;
+	public boolean secondPlayerTurn = false;
+	
+	public KeyHandler(boolean isGameRunning) {
+		this.isGameRunning = isGameRunning;
+	}
+	
+	// the top 3 squares
+	public boolean topLeft;
+	public boolean topMiddle;
+	public boolean topRight;
+
+	// the middle 3 squares
+	public boolean middleLeft;
+	public boolean middleMiddle;
+	public boolean middleRight;
+
+	// the bottom 3 squares
+	public boolean bottomLeft;
+	public boolean bottomMiddle;
+	public boolean bottomRight;
+	
+	public boolean topLeftS;
+	public boolean topMiddleS;
+	public boolean topRightS;
+
+	// the middle 3 squares
+	public boolean middleLeftS;
+	public boolean middleMiddleS;
+	public boolean middleRightS;
+
+	// the bottom 3 squares
+	public boolean bottomLeftS;
+	public boolean bottomMiddleS;
+	public boolean bottomRightS;
+
+	@Override
+	public void keyTyped(KeyEvent e) {
+	}
+
+	@Override
+	public void keyPressed(KeyEvent e) {
+		
+		if (this.firstPlayerTurn) {
+			int code = e.getKeyCode();
+			
+			if (code == KeyEvent.VK_1) {
+				this.topLeft = true;
+			}
+
+			if (code == KeyEvent.VK_2) {
+				this.topMiddle = true;
+			}
+
+			if (code == KeyEvent.VK_3) {
+				this.topRight = true;
+			}
+
+			if (code == KeyEvent.VK_4) {
+				this.middleLeft = true;
+			}
+
+			if (code == KeyEvent.VK_5) {
+				this.middleMiddle = true;
+			}
+
+			if (code == KeyEvent.VK_6) {
+				this.middleRight = true;
+			}
+
+			if (code == KeyEvent.VK_7) {
+				this.bottomLeft = true;
+			}
+
+			if (code == KeyEvent.VK_8) {
+				this.bottomMiddle = true;
+			}
+
+			if (code == KeyEvent.VK_9) {
+				this.bottomRight = true;
+			}
+		} else if (this.secondPlayerTurn) {	
+			int code = e.getKeyCode();
+			
+			if (code == KeyEvent.VK_A) {
+				this.topLeftS = true;
+			}
+			
+			if (code == KeyEvent.VK_B) {
+				this.topMiddleS = true;
+			} 
+			
+			if (code == KeyEvent.VK_C) {
+				this.topRightS = true;
+			}
+			
+			if (code == KeyEvent.VK_D) {
+				this.middleLeftS = true;
+			}
+			
+			if (code == KeyEvent.VK_E) {
+				this.middleMiddleS = true;
+			}
+			
+			if (code == KeyEvent.VK_F) {
+				this.middleRightS = true;
+			}
+			
+			if (code == KeyEvent.VK_G) {
+				this.bottomLeftS = true;
+			}
+			
+			if (code == KeyEvent.VK_H) {
+				this.bottomMiddleS = true;
+			}
+			
+			if (code == KeyEvent.VK_I) {
+				this.bottomRightS = true;
+			}
+		}
+	}
+
+	@Override
+	public void keyReleased(KeyEvent e) {
+
+		int code = e.getKeyCode();
+
+		if (code == KeyEvent.VK_1) {
+			this.topLeft = false;
+		}
+
+		if (code == KeyEvent.VK_2) {
+			this.topMiddle = false;
+		}
+
+		if (code == KeyEvent.VK_3) {
+			this.topRight = false;
+		}
+
+		if (code == KeyEvent.VK_4) {
+			this.middleLeft = false;
+		}
+
+		if (code == KeyEvent.VK_5) {
+			this.middleMiddle = false;
+		}
+
+		if (code == KeyEvent.VK_6) {
+			this.middleRight = false;
+		}
+
+		if (code == KeyEvent.VK_7) {
+			this.bottomLeft = false;
+		}
+
+		if (code == KeyEvent.VK_8) {
+			this.bottomMiddle = false;
+		}
+
+		if (code == KeyEvent.VK_9) {
+			this.bottomRight = false;
+		}
+	}
+}
